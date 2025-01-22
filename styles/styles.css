@@ -1,51 +1,84 @@
-nav {
-    background-color: darkblue;
-    padding: 10px
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-nav a{
-    color: white;
+
+:root {
+    /* Colors */
+    --primary-color: darkblue;
+    --text-light: white;
+    --text-dark: #333;
+    --border-color: black;
+    --background-light: #eee;
+    
+    /* Spacing */
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-box: 2px;
+    --margin-standard: 1rem;
+    --margin-top: 15px;
+    
+    /* Sizes */
+    --main-width: 840px;
+    --aside-width: 20rem;
+    --img-width-small: 150px;
+    --img-width-large: 200px;
+    
+    /* Borders */
+    --border-standard: 1px solid var(--border-color);
+    --border-light: 1px solid rgb(0 0 0 / 0.2);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: var(--padding-small);
+}
+
+nav a {
+    color: var(--text-light);
     display: block;
-    padding: 20px;
+    padding: var(--padding-medium);
 }
 
 h1 {
-    color:darkblue;
+    color: var(--primary-color);
 }
 
-main img{
-    width: 150px;
+main img {
+    width: var(--img-width-small);
     height: auto;
-    border: 1px solid black ;
-    padding: 2px;
+    border: var(--border-standard);
+    padding: var(--padding-box);
     box-shadow: 0 0 30px gray;
-
 }
 
-p {padding:0;}
-
-main{
-    max-width: 840px;
+p {
+    padding: 0;
 }
 
-aside{
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */ 
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+main {
+    max-width: var(--main-width);
+}
+
+aside {
+    width: var(--aside-width);
+    margin: var(--margin-standard);
+    border: var(--border-light);
+    padding: var(--margin-standard);
+    background-color: var(--background-light);
+    color: var(--text-dark);
     text-align: center;
-
 }
 
-aside img{
-    width: 200px;
+aside img {
+    width: var(--img-width-large);
     height: auto;
 }
 
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
+footer {
+    margin-top: var(--margin-top);
+    border-top: var(--border-standard);
     text-align: center;
 }
