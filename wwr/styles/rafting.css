@@ -20,7 +20,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:15px;
+  gap:10px;
   
   
   
@@ -36,7 +36,12 @@ button{
 }
 
 .blacklink{
-  color:#000;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .headerimg{
