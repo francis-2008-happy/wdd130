@@ -16,11 +16,13 @@ body {
 }
 
 header {
-  margin: 1rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 150px; 
+    height: 200px; 
+    padding: 0 50px;
   
   
   
@@ -35,6 +37,11 @@ button{
     
 }
 
+nav {
+  display: flex;
+  gap: 30px;
+}
+
 .blacklink{
     display: inline-block;
     padding: 10px 20px;
@@ -46,7 +53,8 @@ button{
 
 .headerimg{
  margin: 0px;
- 
+ height: 200px;
+ padding-left: 300px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -162,13 +170,14 @@ a:hover {
      
   }
 
-  footer{
-    height: 100px;
+  footer {
+    color: white;
+    padding: 1.5rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 200px;
-  }
+}
 
   .history{
     display:flex;
