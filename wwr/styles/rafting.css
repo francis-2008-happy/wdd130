@@ -246,6 +246,51 @@ margin-top: 0%;
   justify-content: center;
 }
 
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  background-color: #000;
+  color:#fff
+}
+
+.contact-form h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: white;
+
+}
+
+.employee-profiles h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: white;
+
+
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #000;
+  color:#fff;
+  margin-top: 10px;
+}
+
+.purpose{
+  margin-top:10px;
+}
+
+
 
 
 
